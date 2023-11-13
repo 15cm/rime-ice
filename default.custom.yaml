@@ -1,0 +1,15 @@
+patch:
+  switcher:
+    caption: 〔方案选单〕
+    hotkeys:
+    - Control+grave
+  menu:
+    page_size: 8
+  schema_list:
+  - schema: double_pinyin_flypy  # 小鶴雙拼
+
+  key_binder:
+    bindings:
+      # 翻页
+      - { when: has_menu, accept: semicolon, send: Page_Up }
+      - { when: has_menu, accept: apostrophe, send: Page_Down }

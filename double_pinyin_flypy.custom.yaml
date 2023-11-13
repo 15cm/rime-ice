@@ -1,0 +1,14 @@
+patch:
+  schema:
+    dependencies: {}
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "西文"]
+    - name: ascii_punct
+      states: ["。，", "．，"]
+    - name: zh_simp
+      reset: 1
+      states: ["漢字", "汉字"]
+    - name: full_shape
+      states: ["半角", "全角"]
